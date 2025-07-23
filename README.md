@@ -1,624 +1,1494 @@
-Speed Dating Data Key
+**Speed Dating Data Key**
 
-iid: 	unique subject number, group(wave id gender)
+[iid:]{.underline} unique subject number, group(wave id gender)
 
-id:  	subject number within wave
+[id]{.underline}: subject number within wave
 
-gender:	Female=0
-	Male=1
+[gender:]{.underline} Female=0
 
-idg: 	subject number within gender, group(id gender)
+Male=1
 
-condtn:
-	1=limited choice
-	2=extensive choice
-wave:		
-Wave #	Date	Preference Scale	Variations	# Males	# Females
-1	October 16th ‘02	100 pt alloc.		10	10
-2	October 23rd ‘02
-	100 pt alloc.		16	19
-3	November 12th ‘02	100 pt alloc.		10	9
-4	November 12th ‘02	100 pt alloc.		18	18
-5	November 20th, ‘02	100 pt alloc.	undergrads	10	10
-6	March 26th ‘03	1-10 scale		5	5
-7	March 26th ‘03  	1-10 scale		16	16
-8	April 2nd ‘03  	1-10 scale		10	10
-9	April 2nd ‘03  	1-10 scale		20	20
-10	September 24th ‘03	100 pt alloc.		9	9
-11	September 24th ‘03	100 pt alloc.		21	21
-12	October 7th ‘03	100 pt alloc.	Budget: only allowed to yes yes to 50% of the people that met	14	15
-13	October 8th ‘03	100 pt alloc.	Different M.C.	9	10
-14	October 8th ‘03	100 pt alloc.	Different M.C.	18	20
-15	February 24th ‘04	100 pt alloc.		19	18
-16	February 25th ‘04	100 pt alloc.		8	6
-17	February 25th ‘04	100 pt alloc.		14	10
-18	April 6th ‘04	100 pt alloc.	brought a magazine	6	6
-19	April 6th ‘04	100 pt alloc.	brought a book	15	16
-20	April 7th ‘04	100 pt alloc.	brought a book	8	6
-21	April 7th ‘04	100 pt alloc.	brought a magazine	22	22
+[idg:]{.underline} subject number within gender, group(id gender)
 
+[condtn:]{.underline}
 
-round:		number of people that met in wave
+1=limited choice
 
-position:  	station number where met partner 
+2=extensive choice
 
-positin1:	station number where started 
+[wave]{.underline}:
 
-order: 		the number of date that night when met partner
+  -------------------------------------------------------------------------
+  Wave \#  Date              Preference   Variations    \# Males \# Females
+                             Scale                               
+  -------- ----------------- ------------ ------------- -------- ----------
+  1        October 16^th^    100 pt                     10       10
+           '02               alloc.                              
 
-partner: 	partner’s id number the night of event
+  2        October 23^rd^    100 pt                     16       19
+           '02               alloc.                              
 
-pid: 		partner’s iid number
+  3        November 12^th^   100 pt                     10       9
+           '02               alloc.                              
 
-match		1=yes, 0=no
+  4        November 12^th^   100 pt                     18       18
+           '02               alloc.                              
 
-int_corr:	correlation between participant’s and partner’s ratings of interests in 			Time 1
+  5        November 20^th,^  100 pt       undergrads    10       10
+           '02               alloc.                              
 
-samerace:  	participant and the partner were the same race. 1= yes, 0=no
+  6        March 26^th^ '03  1-10 scale                 5        5
 
-age_o:		age of partner
+  7        March 26^th^ '03  1-10 scale                 16       16
 
-race_o:		race of partner
+  8        April 2^nd^ '03   1-10 scale                 10       10
 
-pf_o_att: 	partner’s stated preference at Time 1 (attr1_1) for all 6 attributes
+  9        April 2^nd^ '03   1-10 scale                 20       20
 
-dec_o: 		decision of partner the night of event
+  10       September 24^th^  100 pt                     9        9
+           '03               alloc.                              
 
-attr_o: 		rating by partner the night of the event, for all 6 attributes
+  11       September 24^th^  100 pt                     21       21
+           '03               alloc.                              
 
+  12       October 7^th^ '03 100 pt       Budget: only  14       15
+                             alloc.       allowed to             
+                                          yes yes to             
+                                          50% of the             
+                                          people that            
+                                          met                    
+
+  13       October 8^th^ '03 100 pt       Different     9        10
+                             alloc.       M.C.                   
+
+  14       October 8^th^ '03 100 pt       Different     18       20
+                             alloc.       M.C.                   
+
+  15       February 24^th^   100 pt                     19       18
+           '04               alloc.                              
+
+  16       February 25^th^   100 pt                     8        6
+           '04               alloc.                              
+
+  17       February 25^th^   100 pt                     14       10
+           '04               alloc.                              
+
+  18       April 6^th^ '04   100 pt       brought a     6        6
+                             alloc.       magazine               
+
+  19       April 6^th^ '04   100 pt       brought a     15       16
+                             alloc.       book                   
+
+  20       April 7^th^ '04   100 pt       brought a     8        6
+                             alloc.       book                   
+
+  21       April 7^th^ '04   100 pt       brought a     22       22
+                             alloc.       magazine               
+  -------------------------------------------------------------------------
+
+[round:]{.underline} number of people that met in wave
+
+[position:]{.underline} station number where met partner
+
+[positin1:]{.underline} station number where started
+
+[order:]{.underline} the number of date that night when met partner
+
+[partner:]{.underline} partner's id number the night of event
+
+[pid:]{.underline} partner's iid number
+
+[match]{.underline} 1=yes, 0=no
+
+[int_corr:]{.underline} correlation between participant's and partner's
+ratings of interests in Time 1
+
+[samerace:]{.underline} participant and the partner were the same race.
+1= yes, 0=no
+
+[age_o:]{.underline} age of partner
+
+[race_o:]{.underline} race of partner
+
+[pf_o_att:]{.underline} partner's stated preference at Time 1 (attr1_1)
+for all 6 attributes
+
+[dec_o:]{.underline} decision of partner the night of event
+
+[attr_o:]{.underline} rating by partner the night of the event, for all
+6 attributes
 
 signup/Time1:
-[Survey filled out by students that are interested in participating in order to register for the event.]
-age:
 
-field:		field of study  
+\[Survey filled out by students that are interested in participating in
+order to register for the event.\]
 
-field_cd: 	field coded 
-1= Law  
+[age:]{.underline}
+
+[field:]{.underline} field of study  
+
+[field_cd:]{.underline} field coded
+
+1= Law
+
 2= Math
-3= Social Science, Psychologist 
-4= Medical Science, Pharmaceuticals, and Bio Tech 
-5= Engineering  
-6= English/Creative Writing/ Journalism 
-7= History/Religion/Philosophy 
-8= Business/Econ/Finance 
-9= Education, Academia 
+
+3= Social Science, Psychologist
+
+4= Medical Science, Pharmaceuticals, and Bio Tech
+
+5= Engineering
+
+6= English/Creative Writing/ Journalism
+
+7= History/Religion/Philosophy
+
+8= Business/Econ/Finance
+
+9= Education, Academia
+
 10= Biological Sciences/Chemistry/Physics
-11= Social Work 
-12= Undergrad/undecided 
-13=Political Science/International Affairs 
+
+11= Social Work
+
+12= Undergrad/undecided
+
+13=Political Science/International Affairs
+
 14=Film
+
 15=Fine Arts/Arts Administration
+
 16=Languages
+
 17=Architecture
+
 18=Other
 
-undergrd:  	school attended for undergraduate degree
+[undergrd:]{.underline} school attended for undergraduate degree
 
-mn_sat: 	Median SAT score for the undergraduate institution where attended.  			Taken from Barron’s 25th Edition college profile book.  Proxy for 				intelligence.
+[mn_sat:]{.underline} Median SAT score for the undergraduate institution
+where attended. Taken from Barron's 25^th^ Edition college profile book.
+Proxy for intelligence.
 
-tuition: 	Tuition listed for each response to undergrad in Barron’s 25th Edition 			college profile book.
+[tuition:]{.underline} Tuition listed for each response to
+[undergrad]{.underline} in Barron's 25^th^ Edition college profile book.
 
-race:
-	Black/African American=1
-	European/Caucasian-American=2
-	Latino/Hispanic American=3
-	Asian/Pacific Islander/Asian-American=4
-	Native American=5
-	Other=6
+[race:]{.underline}
 
-imprace:
-How important is it to you (on a scale of 1-10) that a person you date be of the same racial/ethnic background?
+Black/African American=1
 
-imprelig:
- How important is it to you (on a scale of 1-10) that a person you date be of the same religious background?
+European/Caucasian-American=2
 
- from:
-Where are you from originally (before coming to Columbia)? 
+Latino/Hispanic American=3
 
-zipcode:
-What was the zip code of the area where you grew up? 
+Asian/Pacific Islander/Asian-American=4
 
-income:
-Median household income based on zipcode using the Census Bureau website:
-http://venus.census.gov/cdrom/lookup/CMD=LIST/DB=C90STF3B/LEV=ZIP 
-When there is no income it means that they are either from abroad or did not enter their zip code.
+Native American=5
 
-goal:
-What is your primary goal in participating in this event? 
-	Seemed like a fun night out=1
-	To meet new people=2
-	To get a date=3
-	Looking for a serious relationship=4
-	To say I did it=5
-	Other=6
+Other=6
 
-date:
-In general, how frequently do you go on dates? 
-	Several times a week=1
-	Twice a week=2
-	Once a week=3
-	Twice a month=4
-	Once a month=5
-	Several times a year=6
-	Almost never=7
+[imprace:]{.underline}
 
-go out:
+How important is it to you (on a scale of 1-10) that a person you date
+be of the same racial/ethnic background?
+
+[imprelig:]{.underline}
+
+ How important is it to you (on a scale of 1-10) that a person you date
+be of the same religious background?
+
+[ from:]{.underline}
+
+Where are you from originally (before coming to Columbia)? 
+
+[zipcode:]{.underline}
+
+What was the zip code of the area where you grew up? 
+
+[income:]{.underline}
+
+Median household income based on zipcode using the Census Bureau
+website:
+
+[[http://venus.census.gov/cdrom/lookup/CMD=LIST/DB=C90STF3B/LEV=ZIP]{.underline}](http://venus.census.gov/cdrom/lookup/CMD=LIST/DB=C90STF3B/LEV=ZIP)
+
+When there is no income it means that they are either from abroad or did
+not enter their zip code.
+
+[goal:]{.underline}
+
+What is your primary goal in participating in this event? 
+
+Seemed like a fun night out=1
+
+To meet new people=2
+
+To get a date=3
+
+Looking for a serious relationship=4
+
+To say I did it=5
+
+Other=6
+
+[date:]{.underline}
+
+In general, how frequently do you go on dates? 
+
+Several times a week=1
+
+Twice a week=2
+
+Once a week=3
+
+Twice a month=4
+
+Once a month=5
+
+Several times a year=6
+
+Almost never=7
+
+[go out:]{.underline}
+
 How often do you go out (not necessarily on dates)?
-	Several times a week=1
-	Twice a week=2
-	Once a week=3
-	Twice a month=4
-	Once a month=5
-	Several times a year=6
-	Almost never=7
 
-career:
+Several times a week=1
+
+Twice a week=2
+
+Once a week=3
+
+Twice a month=4
+
+Once a month=5
+
+Several times a year=6
+
+Almost never=7
+
+[career:]{.underline}
+
 What is your intended career?
 
-career_c: career coded 
-1= Lawyer 
-2= Academic/Research 
-3= Psychologist 
-4= Doctor/Medicine 
-5=Engineer 
-6= Creative Arts/Entertainment 
-7= Banking/Consulting/Finance/Marketing/Business/CEO/Entrepreneur/Admin 
-8= Real Estate 
-9= International/Humanitarian Affairs 
-10= Undecided 
+[career_c:]{.underline} career coded
+
+1= Lawyer
+
+2= Academic/Research
+
+3= Psychologist
+
+4= Doctor/Medicine
+
+5=Engineer
+
+6= Creative Arts/Entertainment
+
+7= Banking/Consulting/Finance/Marketing/Business/CEO/Entrepreneur/Admin
+
+8= Real Estate
+
+9= International/Humanitarian Affairs
+
+10= Undecided
+
 11=Social Work
+
 12=Speech Pathology
+
 13=Politics
+
 14=Pro sports/Athletics
+
 15=Other
+
 16=Journalism
+
 17=Architecture
 
+12\. How interested are you in the following activities, on a scale of
+1-10?
 
-12.  How interested are you in the following activities, on a scale of 1-10?
-sports: Playing sports/ athletics
-tvsports: Watching sports
-excersice: Body building/exercising
-dining: Dining out
-museums: Museums/galleries
-art: Art
-hiking:  Hiking/camping
-gaming: Gaming
-clubbing: Dancing/clubbing
-reading: Reading
-tv: Watching TV
-theater: Theater
-movies: Movies
-concerts: Going to concerts
-music: Music
-shopping: Shopping
-yoga: Yoga/meditation
+[sports:]{.underline} Playing sports/ athletics
 
- exphappy:
-Overall, on a scale of 1-10, how happy do you expect to be with the people you meet 
+[tvsports:]{.underline} Watching sports
+
+[excersice:]{.underline} Body building/exercising
+
+[dining:]{.underline} Dining out
+
+[museums:]{.underline} Museums/galleries
+
+[art:]{.underline} Art
+
+[hiking:]{.underline} Hiking/camping
+
+[gaming:]{.underline} Gaming
+
+[clubbing:]{.underline} Dancing/clubbing
+
+[reading:]{.underline} Reading
+
+[tv:]{.underline} Watching TV
+
+[theater:]{.underline} Theater
+
+[movies:]{.underline} Movies
+
+[concerts:]{.underline} Going to concerts
+
+[music:]{.underline} Music
+
+[shopping:]{.underline} Shopping
+
+[yoga:]{.underline} Yoga/meditation
+
+ [exphappy:]{.underline}
+
+Overall, on a scale of 1-10, how happy do you expect to be with the
+people you meet
+
 during the speed-dating event?
 
-expnum: 
-Out of the 20 people you will meet, how many do you expect will be interested in dating you? 
+[expnum:]{.underline}
 
-We want to know what you look for in the opposite sex. 
-Waves 6-9: Please rate the importance of the following attributes in a potential date on a scale of 1-10 (1=not at all important, 10=extremely important):
-Waves 1-5, 10-21: You have 100 points to distribute among the following attributes -- give more points to those attributes that are more important in a potential date, and fewer points to those attributes that are less important in a potential date.  Total points must equal 100.
- 
-attr1_1 
-Attractive
-sinc1_1
-Sincere
-intel1_1
-Intelligent
-fun1_1
-Fun
-amb1_1
-Ambitious
-shar1_1
-Has shared interests/hobbies
-
-Now we want to know what you think MOST of your fellow men/women look for in the opposite sex.
-Waves 6-9: Please rate the importance of the following attributes on a scale of 1-10 (1=not at all important, 10=extremely important):
-Waves 10-21 : You have 100 points to distribute among the following attributes -- give more points to those attributes that you think your fellow men/women find more important in a potential date and fewer points to those attributes that they find less important in a potential date.  Total points must equal 100.
-
-attr4_1
-Attractive
-sinc4_1
-Sincere
-intel4_1
-Intelligent
-fun4_1
-Fun
-amb4_1
-Ambitious
-shar4_1
-Shared Interests/Hobbies
-
-
-
-What do you think the opposite sex looks for in a date?
-Waves 6-9: Please rate the importance of the following attributes on a scale of 1-10 (1=not at all important, 10=extremely important):
- Waves 1-5 and 10-21: Please distribute 100 points among the following attributes -- give more points to those attributes that you think are more important to members of the opposite sex when they are deciding whether to date someone.  Total points must equal 100.
-
-attr2_1 
-Attractive
-sinc2_1
-Sincere
-int2_1
-Intelligent
-fun2_1
-Fun
-amb2_1
-Ambitious
-shar2_1
-Has shared interests/hobbies
-
-How do you think you measure up?
-Please rate your opinion of your own attributes, on a scale of 1-10 (be honest!):
-attr3_1 
-Attractive
-sinc3_1
-Sincere
-int3_1
-Intelligent
-fun3_1
-Fun
-amb3_1
-Ambitious
-
-And finally, how do you think others perceive you? 
-Please rate yourself how you think others would rate you on each of the following attributes, on a scale of 1-10 (1=awful, 10=great) 
-attr5_1 
-Attractive
-sinc5_1
-Sincere
-int5_1
-Intelligent
-fun5_1
-Fun
-amb5_1
-Ambitious
-Scorecard:
-[Filled out by subjects after each "date" during the event.]
-
-SCORECARD
-YOUR ID NUMBER: 
-Circle “Yes” or “No” below the ID number of each person you meet to indicate whether or not you would like to see him or her again.  Rate their attributes on a scale of 1-10:  (1=awful, 10=great).  If you haven’t formed an opinion based on your conversation, fill in N/A, but please fill in all boxes.  This will be TOTALLY confidential and will NOT be shared with anyone.  Then, answer the remaining questions for each person you meet.
-ID #:	1	2	3	4	5	6	7	8	9	10
-dec										
-Decision	1=yes
-0=no	Y
-n 	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no
-										
-Attributes
-(1=awful, 10=great)										
-Attractive	attr									
-Sincere	sinc									
-Intelligent	intel									
-Fun	fun									
-Ambitious	amb									
-Shared Interests/Hobbies	shar									
-										
-Overall, how much do you like this person?
-(1=don't like at all, 10=like a lot)	like									
-How probable do you think it is that this person will say 'yes' for you?
-(1=not probable, 10=extremely probable)	prob									
-Have you met this person before?	met
-1=yes
-2=no	 	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no
-
-
-
-ID #:	11	12	13	14	15	16	17	18	19	20
-										
-Decision	yes
-no	yes
-no 	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no
-										
-Attributes
-(1=awful, 10=great)										
-Attractive										
-Sincere										
-Intelligent										
-Fun										
-Ambitious										
-Shared Interests/Hobbies										
-										
-Overall, how much do you like this person?
-(1=don't like at all, 10=like a lot)										
-How probable do you think it is that this person will say 'yes' for you?
-(1=not probable, 10=extremely probable)										
-Have you met this person before?	yes
-no	yes
-no 	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no	yes
-no
-
-
-
-match_es:
-How many matches do you estimate you will get (a match occurs when you and your partner both check “Yes” next to decision)?: ___________
-
-
-Half way through meeting all potential dates during the night of the event on their scorecard:
-
-Hold up!  Now that you are half way through your Speed Dates, we have a few questions for you…
+Out of the 20 people you will meet, how many do you expect will be
+interested in dating you?
 
 We want to know what you look for in the opposite sex.
-Please rate the importance of the following attributes in a potential date on a scale of 1-10: (1=not at all important, 10=extremely important).
-attr1_s
-Attractive______
-sinc1_s
-Sincere  ______
-intel1_s
-Intelligent _______
-fun1_s
-Fun _______
-amb1_s
-Ambitious  ________
-shar1_s
-Shared Interests/Hobbies  __________
 
-Please rate your opinion of your own attributes, on a scale of 1-10 (1=awful, 10=great) --Be honest!
-attr3_s
-Attractive______
-sinc3_s
-Sincere  ______
-intel3_s
-Intelligent _______
-fun3_s
-Fun _______
-amb3_s
-Ambitious  ________
+Waves 6-9: Please rate the importance of the following attributes in a
+potential date on a scale of 1-10 (1=not at all important, 10=extremely
+important):
 
+Waves 1-5, 10-21: You have 100 points to distribute among the following
+attributes \-- give more points to those attributes that are more
+important in a potential date, and fewer points to those attributes that
+are less important in a potential date. Total points must equal 100.
 
+[attr1_1 ]{.underline}
 
-followup/Time2:
-[Survey is filled out the day after participating in the event.  Subjects must have submitted this in order to be sent their matches.]
-satis_2:
-Overall, how satisfied were you with the people you met? (1=not at all satisfied, 10=extremely satisfied)
-
-length:
-Four minutes is:
-	Too little=1
-	Too much=2
-	Just Right=3
-
-numdat_2:
-The number of Speed "Dates" you had was:	
-	Too few=1
-	Too many=2
-	Just right=3
-
-Now, think back to your yes/no decisions during the Speed Dating event.  Try to distribute the 100 points among these six attributes in the way that best reflects the actual importance of these attributes in your decisions. Give more points to those attributes that were more important in your decisions, and fewer points to those attributes that were less important in your decisions.  Total points must equal 100. 
-attr7_2 
 Attractive
-sinc7_2
+
+[sinc1_1]{.underline}
+
 Sincere
-intel7_2
+
+[intel1_1]{.underline}
+
 Intelligent
-fun7_2
+
+[fun1_1]{.underline}
+
 Fun
-amb7_2
+
+[amb1_1]{.underline}
+
 Ambitious
-shar7_2
+
+[shar1_1]{.underline}
+
 Has shared interests/hobbies
 
-We want to know what you look for in the opposite sex. 
-Waves 1-5 and 10-21: You have 100 points to distribute among the following attributes -- give more points to those attributes that are more important in a potential date, and fewer points to those attributes that are less important in a potential date.  Total points must equal 100.
-Waves 6-9: Please rate the importance of the following attributes in a potential date on a scale of 1-10 (1=not at all important, 10=extremely important): 
-attr1_2 
-Attractive
-sinc1_2
-Sincere
-intel1_2
-Intelligent
-fun1_2
-Fun
-amb1_2
-Ambitious
-shar1_2
-Has shared interests/hobbies
+Now we want to know what you think MOST of your fellow men/women look
+for in the opposite sex.
 
-What do you think MOST of your fellow men/women look for in the opposite sex?
-You have 100 points to distribute among the following attributes -- give more points to those attributes that you think your fellow men/women find more important in a potential date, and fewer points to those attributes that they find less important in a potential date.
-Total points must equal 100.
-attr4_2
+Waves 6-9: Please rate the importance of the following attributes on a
+scale of 1-10 (1=not at all important, 10=extremely important):
+
+Waves 10-21 : You have 100 points to distribute among the following
+attributes \-- give more points to those attributes that you think your
+fellow men/women find more important in a potential date and fewer
+points to those attributes that they find less important in a potential
+date. Total points must equal 100.
+
+[attr4_1]{.underline}
+
 Attractive
-sinc4_2
+
+[sinc4_1]{.underline}
+
 Sincere
-intel4_2
+
+[intel4_1]{.underline}
+
 Intelligent
-fun4_2
+
+[fun4_1]{.underline}
+
 Fun
-amb4_2
+
+[amb4_1]{.underline}
+
 Ambitious
-shar4_2
+
+[shar4_1]{.underline}
+
 Shared Interests/Hobbies
 
 What do you think the opposite sex looks for in a date?
-Please distribute 100 points among the following attributes -- give more points to those attributes that you think are more important to members of the opposite sex when they are deciding whether to date someone.  Total points must equal 100.
-attr2_2 
+
+Waves 6-9: Please rate the importance of the following attributes on a
+scale of 1-10 (1=not at all important, 10=extremely important):
+
+ Waves 1-5 and 10-21: Please distribute 100 points among the following
+attributes \-- give more points to those attributes that you think are
+more important to members of the opposite sex when they are deciding
+whether to date someone. Total points must equal 100.
+
+[attr2_1 ]{.underline}
+
 Attractive
-sinc2_2
+
+[sinc2_1]{.underline}
+
 Sincere
-intel2_2
+
+[int2_1]{.underline}
+
 Intelligent
-fun2_2
+
+[fun2_1]{.underline}
+
 Fun
-amb2_2
+
+[amb2_1]{.underline}
+
 Ambitious
-shar2_2
+
+[shar2_1]{.underline}
+
 Has shared interests/hobbies
 
 How do you think you measure up?
-Please rate your opinion of your own attributes, on a scale of 1-10 (1= awful and 10=great).  Be honest!
-attr3_2 
+
+Please rate your opinion of your own attributes, on a scale of 1-10 (be
+honest!):
+
+[attr3_1 ]{.underline}
+
 Attractive
-sinc3_2
+
+[sinc3_1]{.underline}
+
 Sincere
-int3_2
+
+[int3_1]{.underline}
+
 Intelligent
-fun3_2
+
+[fun3_1]{.underline}
+
 Fun
-amb3_2
+
+[amb3_1]{.underline}
+
 Ambitious
 
 And finally, how do you think others perceive you?
-Please rate yourself how you think others would rate you on each of the following attributes, on a scale of 1-10 (1=awful, 10=great)
-attr5_2 
+
+Please rate yourself how you think others would rate you on each of the
+following attributes, on a scale of 1-10 (1=awful, 10=great)
+
+[attr5_1 ]{.underline}
+
 Attractive
-sinc5_2
+
+[sinc5_1]{.underline}
+
 Sincere
-int5_2
+
+[int5_1]{.underline}
+
 Intelligent
-fun5_2
+
+[fun5_1]{.underline}
+
 Fun
-amb5_2
+
+[amb5_1]{.underline}
+
 Ambitious
-	
 
+Scorecard:
 
-followup2/ Time3:
-[Subjects filled out 3-4 weeks after they had been sent their matches]
+\[Filled out by subjects after each \"date\" during the event.\]
 
-SINCE HURRYDATING…
+[SCORECARD]{.underline}
 
-1.  Of the matches that you received:
- you_call:
-(a) How many have you contacted to set up a date?
-them_cal:
-(b) How many have contacted you?
+YOUR ID NUMBER:
 
-date_3:
+Circle "Yes" or "No" below the ID number of each person you meet to
+indicate whether or not you would like to see him or her again. Rate
+their attributes on a scale of 1-10: (1=awful, 10=great). If you haven't
+formed an opinion based on your conversation, fill in N/A, but please
+fill in all boxes. This will be TOTALLY confidential and will NOT be
+shared with anyone. Then, answer the remaining questions for each person
+you meet.
+
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 10%" />
+<col style="width: 4%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>ID #:</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><u>dec</u></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Decision</td>
+<td><p>1=yes</p>
+<p>0=no</p></td>
+<td><p>Y</p>
+<p>n</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>Attributes</p>
+<p>(1=awful, 10=great)</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Attractive</td>
+<td><u>attr</u></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Sincere</td>
+<td><u>sinc</u></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Intelligent</td>
+<td><u>intel</u></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Fun</td>
+<td><u>fun</u></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Ambitious</td>
+<td><u>amb</u></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Shared Interests/Hobbies</td>
+<td><u>shar</u></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>Overall, how much do you like this person?</p>
+<p>(1=don't like at all, 10=like a lot)</p></td>
+<td><u>like</u></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>How probable do you think it is that this person will say 'yes'
+for you?</p>
+<p>(1=not probable, 10=extremely probable)</p></td>
+<td><u>prob</u></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Have you met this person before?</td>
+<td><p><u>met</u></p>
+<p>1=yes</p>
+<p>2=no</p></td>
+<td></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>ID #:</th>
+<th>11</th>
+<th>12</th>
+<th>13</th>
+<th>14</th>
+<th>15</th>
+<th>16</th>
+<th>17</th>
+<th>18</th>
+<th>19</th>
+<th>20</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Decision</td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>Attributes</p>
+<p>(1=awful, 10=great)</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Attractive</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Sincere</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Intelligent</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Fun</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Ambitious</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Shared Interests/Hobbies</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>Overall, how much do you like this person?</p>
+<p>(1=don't like at all, 10=like a lot)</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p>How probable do you think it is that this person will say 'yes'
+for you?</p>
+<p>(1=not probable, 10=extremely probable)</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Have you met this person before?</td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+<td><p>yes</p>
+<p>no</p></td>
+</tr>
+</tbody>
+</table>
+
+[match_es:]{.underline}
+
+How many matches do you estimate you will get (a match occurs when you
+and your partner both check "Yes" next to decision)?:
+\_\_\_\_\_\_\_\_\_\_\_
+
+Half way through meeting all potential dates during the night of the
+event on their scorecard:
+
+Hold up! Now that you are half way through your Speed Dates, we have a
+few questions for you...
+
+We want to know what you look for in the opposite sex.
+
+Please rate the importance of the following attributes in a potential
+date on a scale of 1-10: (1=not at all important, 10=extremely
+important).
+
+[attr1_s]{.underline}
+
+Attractive\_\_\_\_\_\_
+
+[sinc1_s]{.underline}
+
+Sincere \_\_\_\_\_\_
+
+[intel1_s]{.underline}
+
+Intelligent \_\_\_\_\_\_\_
+
+[fun1_s]{.underline}
+
+Fun \_\_\_\_\_\_\_
+
+[amb1_s]{.underline}
+
+Ambitious \_\_\_\_\_\_\_\_
+
+[shar1_s]{.underline}
+
+Shared Interests/Hobbies \_\_\_\_\_\_\_\_\_\_
+
+Please rate your opinion of your own attributes, on a scale of 1-10
+(1=awful, 10=great) \--Be honest!
+
+[attr3_s]{.underline}
+
+Attractive\_\_\_\_\_\_
+
+[sinc3_s]{.underline}
+
+Sincere \_\_\_\_\_\_
+
+[intel3_s]{.underline}
+
+Intelligent \_\_\_\_\_\_\_
+
+[fun3_s]{.underline}
+
+Fun \_\_\_\_\_\_\_
+
+[amb3_s]{.underline}
+
+Ambitious \_\_\_\_\_\_\_\_
+
+followup/Time2:
+
+\[Survey is filled out the day after participating in the event.
+Subjects must have submitted this in order to be sent their matches.\]
+
+[satis_2:]{.underline}
+
+Overall, how satisfied were you with the people you met? (1=not at all
+satisfied, 10=extremely satisfied)
+
+[length:]{.underline}
+
+Four minutes is:
+
+Too little=1
+
+Too much=2
+
+Just Right=3
+
+[numdat_2:]{.underline}
+
+The number of Speed \"Dates\" you had was:
+
+Too few=1
+
+Too many=2
+
+Just right=3
+
+Now, think back to your yes/no decisions during the Speed Dating event.
+Try to distribute the 100 points among these six attributes in the way
+that best reflects the actual importance of these attributes in your
+decisions. Give more points to those attributes that were more important
+in your decisions, and fewer points to those attributes that were less
+important in your decisions. Total points must equal 100.
+
+[attr7_2 ]{.underline}
+
+Attractive
+
+[sinc7_2]{.underline}
+
+Sincere
+
+[intel7_2]{.underline}
+
+Intelligent
+
+[fun7_2]{.underline}
+
+Fun
+
+[amb7_2]{.underline}
+
+Ambitious
+
+[shar7_2]{.underline}
+
+Has shared interests/hobbies
+
+We want to know what you look for in the opposite sex.
+
+Waves 1-5 and 10-21: You have 100 points to distribute among the
+following attributes \-- give more points to those attributes that are
+more important in a potential date, and fewer points to those attributes
+that are less important in a potential date. *Total points must equal
+100.*
+
+Waves 6-9: Please rate the importance of the following attributes in a
+potential date on a scale of 1-10 (1=not at all important, 10=extremely
+important):
+
+[attr1_2 ]{.underline}
+
+Attractive
+
+[sinc1_2]{.underline}
+
+Sincere
+
+[intel1_2]{.underline}
+
+Intelligent
+
+[fun1_2]{.underline}
+
+Fun
+
+[amb1_2]{.underline}
+
+Ambitious
+
+[shar1_2]{.underline}
+
+Has shared interests/hobbies
+
+What do you think MOST of your fellow men/women look for in the opposite
+sex?
+
+You have 100 points to distribute among the following attributes \--
+give more points to those attributes that you think your fellow
+men/women find more important in a potential date, and fewer points to
+those attributes that they find less important in a potential date.
+
+*Total points must equal 100.*
+
+[attr4_2]{.underline}
+
+Attractive
+
+[sinc4_2]{.underline}
+
+Sincere
+
+[intel4_2]{.underline}
+
+Intelligent
+
+[fun4_2]{.underline}
+
+Fun
+
+[amb4_2]{.underline}
+
+Ambitious
+
+[shar4_2]{.underline}
+
+Shared Interests/Hobbies
+
+What do you think the opposite sex looks for in a date?
+
+Please distribute 100 points among the following attributes \-- give
+more points to those attributes that you think are more important to
+members of the opposite sex when they are deciding whether to date
+someone. *Total points must equal 100.*
+
+[attr2_2 ]{.underline}
+
+Attractive
+
+[sinc2_2]{.underline}
+
+Sincere
+
+[intel2_2]{.underline}
+
+Intelligent
+
+[fun2_2]{.underline}
+
+Fun
+
+[amb2_2]{.underline}
+
+Ambitious
+
+[shar2_2]{.underline}
+
+Has shared interests/hobbies
+
+How do you think you measure up?
+
+Please rate your opinion of your own attributes, on a scale of 1-10 (1=
+awful and 10=great). Be honest!
+
+[attr3_2 ]{.underline}
+
+Attractive
+
+[sinc3_2]{.underline}
+
+Sincere
+
+[int3_2]{.underline}
+
+Intelligent
+
+[fun3_2]{.underline}
+
+Fun
+
+[amb3_2]{.underline}
+
+Ambitious
+
+And finally, how do you think others perceive you?
+
+Please rate yourself how you think others would rate you on each of the
+following attributes, on a scale of 1-10 (1=awful, 10=great)
+
+[attr5_2 ]{.underline}
+
+Attractive
+
+[sinc5_2]{.underline}
+
+Sincere
+
+[int5_2]{.underline}
+
+Intelligent
+
+[fun5_2]{.underline}
+
+Fun
+
+[amb5_2]{.underline}
+
+Ambitious
+
+**followup2/ Time3:**
+
+\[Subjects filled out 3-4 weeks after they had been sent their matches\]
+
+SINCE HURRYDATING...
+
+1\. Of the matches that you received:
+
+[you_call:]{.underline}
+
+\(a\) How many have you contacted to set up a date?
+
+[them_cal:]{.underline}
+
+\(b\) How many have contacted you?
+
+[date_3:]{.underline}
+
 Have you been on a date with any of your matches?
-	Yes=1
-	No=2
+
+Yes=1
+
+No=2
 
 If you have been on at least one date, please answer the following:
-numdat_3: 
-(a) How many of your matches have you been on a date with so far?
-num_in_3
+
+[numdat_3:]{.underline}
+
+\(a\) How many of your matches have you been on a date with so far?
+
+[num_in_3]{.underline}
+
 If yes, how many?
 
 What do you look for in the opposite sex?
-Please distribute 100 points among the following attributes -- give more to attributes that were more important in your decisions when Hurrydating, and less to attributes that were less important.  Total points must equal 100.
-We want to know what you look for in the opposite sex. 
-Please rate the importance of the following attributes in a potential date on a scale of 1-10 (1=not at all important, 10=extremely important):
-attr1_3 
+
+Please distribute 100 points among the following attributes \-- give
+more to attributes that were more important in your decisions when
+Hurrydating, and less to attributes that were less important. Total
+points must equal 100.
+
+We want to know what you look for in the opposite sex.
+
+Please rate the importance of the following attributes in a potential
+date on a scale of 1-10 (1=not at all important, 10=extremely
+important):
+
+[attr1_3 ]{.underline}
+
 Attractive
-sinc1_3
+
+[sinc1_3]{.underline}
+
 Sincere
-intel1_3
+
+[intel1_3]{.underline}
+
 Intelligent
-fun1_3
+
+[fun1_3]{.underline}
+
 Fun
-amb1_3
+
+[amb1_3]{.underline}
+
 Ambitious
-shar1_3
+
+[shar1_3]{.underline}
+
 Has shared interests/hobbies
 
-Now, think back to your yes/no decisions during the night of the Speed Dating event.  Try to distribute the 100 points among these six attributes in the way that best reflects the actual importance of these attributes in your decisions. Give more points to those attributes that were more important in your decisions, and fewer points to those attributes that less less important in your decisions.  Total points must equal 100. 
-attr7_3 
+Now, think back to your yes/no decisions during the night of the Speed
+Dating event. Try to distribute the 100 points among these six
+attributes in the way that best reflects the actual importance of these
+attributes in your decisions. Give more points to those attributes that
+were more important in your decisions, and fewer points to those
+attributes that less less important in your decisions. Total points must
+equal 100.
+
+[attr7_3 ]{.underline}
+
 Attractive
-sinc7_3
+
+[sinc7_3]{.underline}
+
 Sincere
-intel7_3
+
+[intel7_3]{.underline}
+
 Intelligent
-fun7_3
+
+[fun7_3]{.underline}
+
 Fun
-amb7_3
+
+[amb7_3]{.underline}
+
 Ambitious
-shar7_3
+
+[shar7_3]{.underline}
+
 Has shared interests/hobbies
 
+Now we want to know what you think MOST of your fellow men/women look
+for in the opposite sex.
 
-Now we want to know what you think MOST of your fellow men/women look for in the opposite sex. 
-Please rate the importance of the following attributes on a scale of 1-10 (1=not at all important, 10=extremely important):
-attr4_3 
+Please rate the importance of the following attributes on a scale of
+1-10 (1=not at all important, 10=extremely important):
+
+[attr4_3 ]{.underline}
+
 Attractive
-sinc4_3
+
+[sinc4_3]{.underline}
+
 Sincere
-intel4_3
+
+[intel4_3]{.underline}
+
 Intelligent
-fun4_3
+
+[fun4_3]{.underline}
+
 Fun
-amb4_3
+
+[amb4_3]{.underline}
+
 Ambitious
-shar4_3
+
+[shar4_3]{.underline}
+
 Has shared interests/hobbies
 
+What do you think the opposite sex looks for in a date?
 
-What do you think the opposite sex looks for in a date? 
-Please rate the importance of the following attributes on a scale of 1-10 (1=not at all important, 10=extremely important):
-attr2_3 
+Please rate the importance of the following attributes on a scale of
+1-10 (1=not at all important, 10=extremely important):
+
+[attr2_3 ]{.underline}
+
 Attractive
-sinc2_3
+
+[sinc2_3]{.underline}
+
 Sincere
-intel2_3
+
+[intel2_3]{.underline}
+
 Intelligent
-fun2_3
+
+[fun2_3]{.underline}
+
 Fun
-amb2_3
+
+[amb2_3]{.underline}
+
 Ambitious
-share2_3
+
+[share2_3]{.underline}
+
 Has shared interests/hobbies
 
+Please rate your opinion of your own attributes, on a scale of 1-10 (1=
+awful and 10=great). Be honest!
 
-Please rate your opinion of your own attributes, on a scale of 1-10 (1= awful and 10=great).  Be honest!
-attr3 _3
+[attr3 \_3]{.underline}
+
 Attractive
-sinc3_3
+
+[sinc3_3]{.underline}
+
 Sincere
-intel3_3
+
+[intel3_3]{.underline}
+
 Intelligent
-fun3_3
+
+[fun3_3]{.underline}
+
 Fun
-amb3_3
+
+[amb3_3]{.underline}
+
 Ambitious
 
 And finally, how do you think others perceive you?
-Please rate yourself how you think others would rate you on each of the following attributes, on a scale of 1-10 (1=awful, 10=great)  
-attr5_3 
+
+Please rate yourself how you think others would rate you on each of the
+following attributes, on a scale of 1-10 (1=awful, 10=great)
+
+[attr5_3 ]{.underline}
+
 Attractive
-sinc5_3
+
+[sinc5_3]{.underline}
+
 Sincere
-int5_3
+
+[int5_3]{.underline}
+
 Intelligent
-fun5_3
+
+[fun5_3]{.underline}
+
 Fun
-amb5_3
+
+[amb5_3]{.underline}
+
 Ambitious
-	
